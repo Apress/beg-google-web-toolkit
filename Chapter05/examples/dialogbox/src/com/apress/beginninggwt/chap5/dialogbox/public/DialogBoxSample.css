@@ -1,0 +1,17 @@
+/** Add css rules here for your application. */
+
+.gwt-DialogBox {
+	border: 1px solid #666666;
+	background-color: #e3dede;
+}
+
+.gwt-DialogBox .Caption {
+	color: white;
+	background-color: #22aae2;
+	padding-left: 3px;
+	cursor: move;
+}
+
+.gwt-DialogBox .DialogContent {
+	padding: 3px;
+}

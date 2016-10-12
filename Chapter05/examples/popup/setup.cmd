@@ -1,0 +1,1 @@
+%GWT_HOME%\applicationCreator com.apress.beginninggwt.chap5.popup.client.PopupSample -ignore

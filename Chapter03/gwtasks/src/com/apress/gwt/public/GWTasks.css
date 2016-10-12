@@ -1,0 +1,9 @@
+.gwt-Label {
+  font-size: 9px;
+}
+
+.gwt-Button, .gwt-TextBox, .gwt-PasswordTextBox {
+  font-size: 9px;
+  height: 19px;
+  width: 75px;
+}

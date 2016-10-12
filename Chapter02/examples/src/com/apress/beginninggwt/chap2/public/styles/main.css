@@ -1,0 +1,11 @@
+body {
+    text-align: center;
+}
+
+img {
+    border: 1px solid black;
+}
+
+h1, p {
+    font-family: verdana, sans-serif;
+}

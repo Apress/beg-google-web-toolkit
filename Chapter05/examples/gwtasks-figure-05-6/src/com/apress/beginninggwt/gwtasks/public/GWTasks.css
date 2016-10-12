@@ -1,0 +1,102 @@
+/** Add css rules here for your application. */
+
+.gwt-HorizontalSplitPanel .hsplitter {
+	background-color: #e3dede;/*
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;*/
+	cursor: e-resize;
+	cursor: col-resize;
+}
+
+.categoryRow {
+	cursor: default;	
+}			
+
+.selectedCategoryRow {
+	background-color: #FEF5CA;
+}
+
+.priorityLabel-normal { 
+	color: blue;
+}
+
+.priorityLabel-high {
+	color: red;
+}
+
+.priorityLabel-low {
+	color: orange;
+}
+
+.TableHeader {
+	background-color: #e3dede
+}
+
+.TaskRow {
+	cursor: default;
+}
+
+.TaskRow-selected {
+	background-color: #fed789;
+}
+
+.gwt-Tree {
+}
+
+.gwt-Tree .gwt-TreeItem {
+	cursor: default;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.gwt-Tree .gwt-TreeItem-selected {
+	background-color: #fed789;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.gwt-DialogBox {
+	border: 1px solid #666666;
+	background-color: #e3dede;
+}
+
+.gwt-DialogBox .Caption {
+	color: white;
+	background-color: #22aae2;
+	padding-left: 3px;
+	cursor: move;
+}
+
+.gwt-DialogBox .DialogContent {
+	padding: 3px;
+}
+
+.TitledPanel .TitleText {
+	padding-left: 5px;
+	background-color: #e3dede;
+}
+
+.TitledPanel .Content {
+	border: 1px silver inset;
+}
+
+.TitledPanel .Toolbar .ToolButton {
+	margin-left: 2px;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	width: 22px;
+	height: 22px;
+}
+
+.TitledPanel .Toolbar .ToolButton-up-hovering {
+	font-weight: bold;
+}
+
+.TitledPanel .Toolbar .ToolButton-up-disabled {
+	cursor: default;
+}
+
+.TitledPanel .Toolbar .ToolButton-up-disabled .html-face {
+	color: gray;
+}

@@ -1,0 +1,12 @@
+<module>
+
+	<!-- Inherit the core Web Toolkit stuff.                  -->
+	<inherits name='com.google.gwt.user.User'/>
+    <inherits name="com.google.gwt.http.HTTP"/>
+
+    <!-- Specify the app entry point class.                   -->
+	<entry-point class='com.apress.beginninggwt.chap8.fileupload.client.FileUploadSample'/>
+
+    <servlet path="/upload" class="com.apress.beginninggwt.chap8.fileupload.server.FileUploadServlet"/>
+
+</module>

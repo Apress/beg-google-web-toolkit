@@ -1,0 +1,13 @@
+#!/bin/sh
+APPDIR=`dirname $0`;
+
+export CLASSPATH=src
+export CLASSPATH=$CLASSPATH:lib/commons-logging-1.1.1.jar
+export CLASSPATH=$CLASSPATH:lib/commons-fileupload-1.2.jar
+export CLASSPATH=$CLASSPATH:lib/servlet-api-2.5.jar
+export CLASSPATH=$CLASSPATH:$APPDIR/bin
+export CLASSPATH=$CLASSPATH:$APPDIR/bin
+export CLASSPATH=$CLASSPATH:$GWT_HOME/gwt-user.jar
+export CLASSPATH=$CLASSPATH:$GWT_HOME/gwt-dev-linux.jar
+
+java  -Xmx256M -cp $CLASSPATH com.google.gwt.dev.GWTShell -out "$APPDIR/www" "$@" com.apress.beginninggwt.chap8.fileupload.FileUploadSample/FileUploadSample.html;
